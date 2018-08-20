@@ -14,7 +14,7 @@ install_requires = [
 setup(
     name = 'jt',
     version = '1.0',
-    long_description = 'A command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an ascii tree.',
+    long_description = 'A command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an ASCII tree.',
     platforms = 'Fedora 26',
     license = 'MIT',
     url = 'https://github.com/para0rmal/jt',
