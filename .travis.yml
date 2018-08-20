@@ -3,8 +3,7 @@ python:
   - "3.6"
 
 install:
-   - python setup.py install
+  - python setup.py install
 
-#   # command to run tests
-#   script:
-#     - pytest
+script:
+  - jt -h
