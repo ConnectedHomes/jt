@@ -16,18 +16,18 @@ To display help, run:
 $ jt -h 
 ```
 
-![alt text](https://raw.githubusercontent.com/para0rmal/jt/master/examples/help.jpeg)
+![help](https://user-images.githubusercontent.com/15225347/44353777-fad7c480-a49f-11e8-9879-7e1bbb39a8d2.png)
 
 Read JSON from a file:
 ```
 $ jt filename
 ```
 
-![alt text](https://raw.githubusercontent.com/para0rmal/jt/master/examples/file.jpeg)
+![file](https://user-images.githubusercontent.com/15225347/44353776-fa3f2e00-a49f-11e8-8ac3-7cfaf05e2d46.png)
 
 Read JSON from GET requestL
 ```
 $ jt -u https://api.github.com/users/para0rmal/repos
 ```
 
-![alt text](https://raw.githubusercontent.com/para0rmal/jt/master/examples/http_get.jpeg)
+![https_get](https://user-images.githubusercontent.com/15225347/44353778-fad7c480-a49f-11e8-8963-80b8eb4a6de8.png)
