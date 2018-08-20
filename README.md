@@ -25,7 +25,12 @@ $ cd jt/
 
 #### A) Virtual Environment Installation
 
-To install inside a virtual environment you may use:
+You may use the `pipenv` virtual environment manager from PyPy. To install it:
+```
+$ pip3 install pipenv
+```
+
+To install within a virtual environment using `pipenv`:
 ```
 $ pipenv --python 3.6 install -e
 ```
