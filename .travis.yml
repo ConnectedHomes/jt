@@ -7,3 +7,4 @@ install:
 
 script:
   - jt -h
+  - jt -u https://api.github.com/users/para0rmal/repos
