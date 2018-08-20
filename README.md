@@ -25,7 +25,7 @@ $ jt file.json
 
 ![file](https://user-images.githubusercontent.com/15225347/44353776-fa3f2e00-a49f-11e8-8ac3-7cfaf05e2d46.png)
 
-Read JSON from GET requestL
+Read JSON from GET request:
 ```
 $ jt -u https://api.github.com/users/para0rmal/repos
 ```
