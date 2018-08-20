@@ -4,7 +4,7 @@ from crayons import *
 from collections import OrderedDict as OD
 
 
-class JsonTree:
+class JSONTree(object):
 
   def __init__(self):
     self.tr = LeftAligned()

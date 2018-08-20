@@ -13,7 +13,7 @@ CONTEXT_SETTINGS = dict(help_option_names=[])
 @click.option('-u', help='Perform HTTP GET request on the specified endpoint and print JSON response as tree.')
 @click.option('-h', is_flag=True, help='Show help.')
 def run(filename, u, h):
-    j = JsonTree()
+    j = JSONTree()
     if (u and filename) or (not u and not filename) or h:
         help_string = "\n\
     {}, a command line utility for printing JSON tree structure.\n\n\
