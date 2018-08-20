@@ -5,11 +5,19 @@ from collections import OrderedDict as OD
 
 
 class JSONTree(object):
+  ''' Implements methods for representing JSON as an ASCII tree.
+
+  '''
 
   def __init__(self):
     self.tr = LeftAligned()
 
   def __convert__(self, d):
+    ''' Generates blueprint for tree. 
+
+        :param list d: List containing dict to convert.
+    '''
+
     if type(d) == str:
       pass
 
@@ -45,6 +53,10 @@ class JSONTree(object):
           return r
 
   def __unpack__(self, g):
+    ''' 'Unpack' data and convert to OrderedDict.
+
+        :param list g:
+    '''
     r = []
 
     for i in g:
@@ -57,11 +69,16 @@ class JSONTree(object):
     return r
 
   def __generate__(self, data):
+    ''' Generate ASCII tree. '''
     tree_data = {'.': OD(self.__unpack__(self.__convert__(data)))}
     return self.tr(tree_data)
 
             
   def tree(self, data):
+    ''' Generate tree. 
+
+        :param list data: data to generate.
+    '''
     t = self.__generate__(OD(data[0]))\
             .replace('[', str(cyan('[')))\
             .replace(']', str(cyan(']')))\
