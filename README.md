@@ -35,6 +35,12 @@ To activate the virtualenv:
 $ pipenv shell
 ```
 
+To deactivate the virtualenv:
+```
+(env) $ exit
+```
+
+
 #### B) Local Installation
 
 To install locally:
