@@ -20,7 +20,7 @@ $ jt -h
 
 Read JSON from a file:
 ```
-$ jt filename
+$ jt file.txt
 ```
 
 ![file](https://user-images.githubusercontent.com/15225347/44353776-fa3f2e00-a49f-11e8-8ac3-7cfaf05e2d46.png)
