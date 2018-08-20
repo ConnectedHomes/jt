@@ -12,6 +12,29 @@ jt is a command line utility which allows you to visualise the nodes in a JSON f
 
 Installation
 ---
+
+
+Clone the repository:
+```
+$ git clone https://github.com/para0rmal/jt.git
+```
+
+Enter directory:
+```
+$ cd jt/
+```
+
+To install inside a virtual environment you may use:
+```
+$ pipenv --python 3.6 install -e
+```
+
+To activate the virtualenv:
+```
+$ pipenv shell
+```
+
+To install locally:
 ```
 $ python3 setup.py install
 ```
