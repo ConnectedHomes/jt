@@ -1,4 +1,3 @@
-import re
 from asciitree import LeftAligned
 from crayons import *
 from collections import OrderedDict as OD
