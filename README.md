@@ -1,3 +1,7 @@
+!https://travis-ci.com/para0rmal/jt.svg?branch=master
+[![Build Status](!https://travis-ci.com/para0rmal/jt.svg?branch=master )](!https://travis-ci.com/para0rmal/badges)
+
+
 # jt
 
 jt is a command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an ascii tree.
