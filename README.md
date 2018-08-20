@@ -24,7 +24,7 @@ Enter directory:
 $ cd jt/
 ```
 
-To install inside a virtual environment you may use:
+### A) To install inside a virtual environment you may use:
 ```
 $ pipenv --python 3.6 install -e
 ```
@@ -34,7 +34,7 @@ To activate the virtualenv:
 $ pipenv shell
 ```
 
-To install locally:
+### B) To install locally:
 ```
 $ python3 setup.py install
 ```
