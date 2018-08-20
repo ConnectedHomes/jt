@@ -69,7 +69,10 @@ class JSONTree(object):
     return r
 
   def __generate__(self, data):
-    ''' Generate ASCII tree. '''
+    ''' Generate ASCII tree. 
+
+        :param list data: data to generate.
+    '''
     tree_data = {'.': OD(self.__convert__(self.__blueprint__(data)))}
     return self.tr(tree_data)
 
