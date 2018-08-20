@@ -1,5 +1,4 @@
-!https://travis-ci.com/para0rmal/jt.svg?branch=master
-[![Build Status](!https://travis-ci.com/para0rmal/jt.svg?branch=master )](!https://travis-ci.com/para0rmal/badges)
+[![Build Status](!https://travis-ci.com/para0rmal/jt.svg?branch=master)](!https://travis-ci.com/para0rmal/badges)
 
 
 # jt
