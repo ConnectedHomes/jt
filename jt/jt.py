@@ -27,7 +27,7 @@ def run(filename, u, h):
     Output legend:\n\n\
     {} describes string data.\n\
     {} describes array data.\n\
-    {} describes dict data.\n\n\
+    {} describes dictionary data.\n\n\
         ".format(
             white('jt'),
             white('jt ') + red('FILENAME'),
@@ -47,7 +47,6 @@ def run(filename, u, h):
     if filename:
         d = ''.join([i for i in open(filename, 'r')])
         j.tree([(json.loads(d))])
-
 
 if __name__ == '__main__':
     run()
