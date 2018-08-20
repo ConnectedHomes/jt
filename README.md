@@ -24,7 +24,7 @@ Enter directory:
 $ cd jt/
 ```
 
-##### A) Virtual Environment install
+#### A) Virtual Environment install
 
 To install inside a virtual environment you may use:
 ```
@@ -36,7 +36,7 @@ To activate the virtualenv:
 $ pipenv shell
 ```
 
-##### B) Local install
+#### B) Local install
 
 To install locally:
 ```
