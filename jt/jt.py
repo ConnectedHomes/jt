@@ -16,7 +16,7 @@ def run(filename, u, h):
     j = J()
     if (u and filename) or (not u and not filename) or h:
         help_string = "\n\
-    {}, a command line utility for printing JSON tree structure.\n\n\
+    {}, a command line utility for printing nodes in a JSON as an ascii tree structure.\n\n\
     Usage:\n\n\
         Read JSON from file:\n\
         $ {}\n\n\
