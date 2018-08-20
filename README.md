@@ -25,30 +25,27 @@ $ cd jt/
 
 #### A) Virtual Environment Installation
 
-You may use the `pipenv` virtual environment manager from PyPy. To install it:
+You may use the `pipenv` virtual environment manager from PyPy. 
+
+Install `pipenv`:
 ```
 $ pip3 install pipenv
 ```
 
-To install within a virtual environment using `pipenv`:
+Install `jt` within a virtual environment using `pipenv`:
 ```
-$ pipenv --python 3.6 install -e
+$ pipenv --python 3.6 install -e .
 ```
 
-To activate the virtualenv:
+Activate the virtualenv (deactivate with `exit`):
 ```
 $ pipenv shell
-```
-
-To deactivate the virtualenv:
-```
-(env) $ exit
 ```
 
 
 #### B) Local Installation
 
-To install locally:
+Install locally:
 ```
 $ python3 setup.py install
 ```
@@ -56,7 +53,7 @@ $ python3 setup.py install
 Examples
 ---
 
-To display help, run:
+View help:
 ``` 
 $ jt -h 
 ```
