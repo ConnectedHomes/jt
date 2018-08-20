@@ -10,7 +10,7 @@ CONTEXT_SETTINGS = dict(help_option_names=[])
 
 @click.command(context_settings=CONTEXT_SETTINGS)
 @click.argument('filename', required=False)
-@click.option('-u', help='Perform GET request on the specified JSON endpoint and print JSON tree.')
+@click.option('-u', help='Perform HTTP GET request on the specified endpoint and print JSON response as tree.')
 @click.option('-h', is_flag=True, help='Show help.')
 def run(filename, u, h):
     j = J()
@@ -20,7 +20,7 @@ def run(filename, u, h):
     Usage:\n\n\
         Read JSON from file:\n\
         $ {}\n\n\
-        Read JSON from GET request:\n\
+        Read JSON from HTTP GET request:\n\
         $ {}\n\n\
         Show help:\n\
         $ {}\n\n\
