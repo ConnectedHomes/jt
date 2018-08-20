@@ -33,9 +33,9 @@ def run(filename, u, h):
             white('jt ') + red('FILENAME'),
             white('jt -u ') + red('URL'),
             white('jt -h '),
-            white('\'') + str('node_0') + white('\''),
-            green('[') + str('node_0') + green(']'),
-            yellow('{') + str('node_0') + yellow('}'),
+            green('\'') + str('node_0') + green('\''),
+            cyan('[') + str('node_0') + cyan(']'),
+            magenta('{') + str('node_0') + magenta('}'),
         )
         print(help_string)
 

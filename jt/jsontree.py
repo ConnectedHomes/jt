@@ -63,11 +63,11 @@ class J:
             
   def tree(self, data):
     t = self.__generate__(OD(data[0]))\
-            .replace('[', str(green('[')))\
-            .replace(']', str(green(']')))\
-            .replace('\'', str(white('\'')))\
-            .replace('{', str(yellow('{')))\
-            .replace('}', str(yellow('}')))\
+            .replace('[', str(cyan('[')))\
+            .replace(']', str(cyan(']')))\
+            .replace('\'', str(green('\'')))\
+            .replace('{', str(magenta('{')))\
+            .replace('}', str(magenta('}')))\
             .replace('.', str(blue('.')))\
             .replace('+', str(blue('+')))\
             .replace('-', str(blue('-')))\
