@@ -12,10 +12,10 @@ class JSONTree(object):
   def __init__(self):
     self.tr = LeftAligned()
 
-  def __convert__(self, d):
-    ''' Generates blueprint for tree. 
+  def __blueprint__(self, d):
+    ''' Generates blueprint for tree using a recursive algorithm. 
 
-        :param list d: List containing dict to convert.
+        :param list d: List containing dict to blueprint.
     '''
 
     if type(d) == str:
@@ -27,14 +27,14 @@ class JSONTree(object):
 
         if type(d[k]) == dict:
           try:
-            r.append(('{{{}}}'.format(k), self.__convert__(d[k])))
+            r.append(('{{{}}}'.format(k), self.__blueprint__(d[k])))
 
           except:
             pass
 
         elif type(d[k]) == list and len(d[k]):
           try:
-            r.append(('[{}]'.format(k), self.__convert__(d[k][0])))
+            r.append(('[{}]'.format(k), self.__blueprint__(d[k][0])))
 
           except:
             pass
@@ -52,8 +52,8 @@ class JSONTree(object):
         except:
           return r
 
-  def __unpack__(self, g):
-    ''' 'Unpack' data and convert to OrderedDict.
+  def __convert__(self, g):
+    ''' Convert dicts to OrderedDict recursively using a recursive algorithm.
 
         :param list g:
     '''
@@ -61,7 +61,7 @@ class JSONTree(object):
 
     for i in g:
       if i[1] != {}:
-        r.append((i[0], OD(self.__unpack__(i[1]))))
+        r.append((i[0], OD(self.__convert__(i[1]))))
 
       else:
         r.append(i)
@@ -70,12 +70,12 @@ class JSONTree(object):
 
   def __generate__(self, data):
     ''' Generate ASCII tree. '''
-    tree_data = {'.': OD(self.__unpack__(self.__convert__(data)))}
+    tree_data = {'.': OD(self.__convert__(self.__blueprint__(data)))}
     return self.tr(tree_data)
 
             
   def tree(self, data):
-    ''' Generate tree. 
+    ''' View ASCII tree. 
 
         :param list data: data to generate.
     '''
