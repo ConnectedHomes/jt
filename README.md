@@ -1,6 +1,6 @@
 # jt
 
-jt is a command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an asciitree.
+jt is a command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an ascii tree.
 
 Installation
 ---
