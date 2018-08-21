@@ -50,7 +50,7 @@ yellow("    ══╝") + white("  ║\n\
             red('Options'),
             white('-h'),
             white('-s'),
-            yellow('STREAM'),
+            yellow('stream'),
             white('-u'),
             cyan('HTTP GET request'),
             red('Examples'),
@@ -58,7 +58,7 @@ yellow("    ══╝") + white("  ║\n\
             white('jt -u ') + cyan('URL'),
             green('FILE'),
             white('jt ') + green('FILENAME'),
-            yellow('STREAM'),
+            yellow('stream'),
             'echo ' + yellow('\'{"node_0": {"node_0_0": [{"node_0_0_0": "", "node_0_0_1": [""]}]}}\' ') 
                 + '| ' + white('jt -s'),
             white('jt -h '),
