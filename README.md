@@ -7,7 +7,7 @@
 
 # jt
 
-jt is a command line utility which allows you to visualise the nodes from a JSON file, or from the response of a HTTP GET request, as an ASCII tree.
+jt is a command line utility which allows you to visualise JSON schemas, as ASCII trees.
 
 Installation
 ---
@@ -58,18 +58,25 @@ View help:
 $ jt -h 
 ```
 
-![help](https://user-images.githubusercontent.com/15225347/44353777-fad7c480-a49f-11e8-9879-7e1bbb39a8d2.png)
+![help](https://user-images.githubusercontent.com/15225347/44377839-6056a000-a4f6-11e8-9af1-956fc3867bcc.png)
 
 Read JSON from a file:
 ```
 $ jt file.json
 ```
 
-![file](https://user-images.githubusercontent.com/15225347/44353776-fa3f2e00-a49f-11e8-8ac3-7cfaf05e2d46.png)
+![file](https://user-images.githubusercontent.com/15225347/44377838-6056a000-a4f6-11e8-810e-f61f06a31255.png)
+
+Read JSON from a stream:
+```
+$ echo '{"node_0": {"node_0_0": [{"node_0_0_0": "", "node_0_0_1": [""]}]}}' | jt -s
+```
+
+![stream](https://user-images.githubusercontent.com/15225347/44377840-6056a000-a4f6-11e8-8347-9376f5bed692.png)
 
 Read JSON from GET request:
 ```
 $ jt -u https://api.github.com/users/para0rmal/repos
 ```
 
-![https_get](https://user-images.githubusercontent.com/15225347/44353778-fad7c480-a49f-11e8-8963-80b8eb4a6de8.png)
+![url](https://user-images.githubusercontent.com/15225347/44377934-c9d6ae80-a4f6-11e8-9b98-a678a4aae050.png)

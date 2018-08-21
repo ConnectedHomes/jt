@@ -1,4 +1,5 @@
 from asciitree import LeftAligned
+from asciitree.drawing import BoxStyle, BOX_LIGHT, BOX_BLANK
 from crayons import *
 from collections import OrderedDict as OD
 
@@ -9,7 +10,7 @@ class JSONTree(object):
   '''
 
   def __init__(self):
-    self.tr = LeftAligned()
+    self.tr = LeftAligned(draw=BoxStyle(gfx=BOX_LIGHT, horiz_len=1))
 
   def __blueprint__(self, d):
     ''' Generates blueprint for tree using a recursive algorithm. 
