@@ -55,7 +55,7 @@ yellow("    ══╝") + white("  ║\n\
             cyan('HTTP GET request'),
             red('Examples'),
             cyan('HTTP GET request'),
-            white('jt -u ') + cyan('URL'),
+            white('jt -u ') + cyan('https://api.github.com/users/para0rmal/repos'),
             green('FILE'),
             white('jt ') + green('FILENAME'),
             yellow('stream'),

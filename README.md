@@ -57,7 +57,7 @@ View help:
 $ jt -h 
 ```
 
-![help](https://user-images.githubusercontent.com/15225347/44380533-d44b7500-a503-11e8-9d31-f8ca9239ca29.png)
+![help](https://user-images.githubusercontent.com/15225347/44381165-e975d300-a506-11e8-9c67-85bf6dd7bd45.png)
 
 Read JSON from a file:
 ```
