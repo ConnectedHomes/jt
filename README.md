@@ -73,7 +73,7 @@ $ echo '{"node_0": {"node_0_0": [{"node_0_0_0": "", "node_0_0_1": [""]}]}}' | jt
 
 ![stream](https://user-images.githubusercontent.com/15225347/44379717-25a53580-a4ff-11e8-9cd4-ef90c1f02a76.png)
 
-Read JSON from GET request:
+Read JSON from a HTTP GET request:
 ```
 $ jt -u https://api.github.com/users/para0rmal/repos
 ```
