@@ -57,25 +57,25 @@ View help:
 $ jt -h 
 ```
 
-![help](https://user-images.githubusercontent.com/15225347/44377839-6056a000-a4f6-11e8-9af1-956fc3867bcc.png)
+![help](https://user-images.githubusercontent.com/15225347/44378676-5afb5480-a4fa-11e8-9ed1-85858b14423b.png)
 
 Read JSON from a file:
 ```
 $ jt file.json
 ```
 
-![file](https://user-images.githubusercontent.com/15225347/44377838-6056a000-a4f6-11e8-810e-f61f06a31255.png)
+![file](https://user-images.githubusercontent.com/15225347/44378675-5afb5480-a4fa-11e8-93f3-9275c6626160.png)
 
 Read JSON from a stream:
 ```
 $ echo '{"node_0": {"node_0_0": [{"node_0_0_0": "", "node_0_0_1": [""]}]}}' | jt -s
 ```
 
-![stream](https://user-images.githubusercontent.com/15225347/44377840-6056a000-a4f6-11e8-8347-9376f5bed692.png)
+![stream](https://user-images.githubusercontent.com/15225347/44378677-5afb5480-a4fa-11e8-8d98-b6808b394757.png)
 
 Read JSON from GET request:
 ```
 $ jt -u https://api.github.com/users/para0rmal/repos
 ```
 
-![url](https://user-images.githubusercontent.com/15225347/44377934-c9d6ae80-a4f6-11e8-9b98-a678a4aae050.png)
+![url](https://user-images.githubusercontent.com/15225347/44378678-5b93eb00-a4fa-11e8-8546-dcf1b45e5882.png)

@@ -93,4 +93,4 @@ class JSONTree(object):
             .replace('-', str(blue('-')))\
             .replace('|', str(blue('|')))
 
-    print(t)
+    print(t + '\n')

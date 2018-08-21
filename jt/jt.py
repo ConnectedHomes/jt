@@ -37,7 +37,7 @@ def run(filename, u, s, h):
     {}:\n\
         {} - describes {} data.\n\
         {} - describes {} data.\n\
-        {} - describes {} data.\n\
+        {} - describes {} data.\n\n\
         ".format(
             yellow("\
   ║\n\
