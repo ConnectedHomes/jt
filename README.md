@@ -6,7 +6,9 @@
 
 # jt
 
-jt is a command line utility which allows you to visualise JSON schemas, as ASCII trees.
+jt is a command line utility which allows you to visualise JSON schemas as text trees. It may be used as a complement to `jq`, to facilitate the interpretation of a JSON schema, prior to defining filters.
+
+Note: At this point it assumes consistency across data contained in arrays and only evaluates the schema of the first element.
 
 Installation
 ---
