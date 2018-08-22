@@ -43,7 +43,7 @@ def run(filename, u, s, h):
   ║\n\
       ╠") + white ("══╦══\n") +
 yellow("    ══╝") + white("  ║\n\
-         ║\n"),
+         ║hink ") + yellow('JSON') + '.\n',
             white('jt'),
             yellow('Usage'),
             white('jt ') + green('FILENAME ') + white('[-h] [-s] [-u ') + blue('URL') + white(']'),
