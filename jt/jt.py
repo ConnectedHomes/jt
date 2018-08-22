@@ -68,12 +68,12 @@ yellow("    ══╝") + white("  ║\n\
                 + '| ' + white('jt -s'),
             white('jt -h '),
             yellow('Legend'),
-            white('\'') + str('node_0') + white('\''),
-            white('string'),
-            cyan('[') + str('node_0') + cyan(']'),
-            cyan('array'),
             yellow('{') + str('node_0') + yellow('}'),
             yellow('dictionary'),
+            cyan('[') + str('node_0') + cyan(']'),
+            cyan('array'),
+            white('\'') + str('node_0') + white('\''),
+            white('string'),
         )
         click.echo(help_string)
 
