@@ -86,7 +86,7 @@ class JSONTree(object):
                 .replace('\'', str(white('\'')))\
                 .replace('{', str(yellow('{')))\
                 .replace('}', str(yellow('}')))\
-                .replace('.', str(blue('.')))\
+                .replace('.', str(yellow('.')))\
                 .replace('+', str(blue('+')))\
                 .replace('-', str(blue('-')))\
                 .replace('|', str(blue('|')))
